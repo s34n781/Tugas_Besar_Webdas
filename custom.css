@@ -1,0 +1,65 @@
+main {
+    background-color:bisque;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.hlm-kontak {
+    padding: 20px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+/*
+tambah animasi
+Media query biar berubah jadi 1 kolom
+*/
+
+footer {
+    padding: 20px;
+    padding-bottom: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.teks-footer {
+    width: 30vw;
+    margin-right: 10px;
+}
+
+.carousel {
+    background-color: rgb(205, 205, 205);
+}
+
+.logo-gede {
+    margin: auto;
+    object-fit: cover;
+    height: 120vh;
+}
+
+.card {
+    margin: 20px;
+    padding-top: 20px;
+    border-radius: 20px;
+    height: 300px;
+    min-width: 280px;
+}
+
+.pp {
+    margin: auto;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 30px;
+}
