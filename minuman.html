@@ -34,7 +34,7 @@
                                 Makanan
                             </a>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="./makanan-daerah.html">Makanan Ringan</a></li>
+                                <li><a class="dropdown-item" href="./makanan-ringan.html">Makanan Ringan</a></li>
                                 <li><a class="dropdown-item" href="./makanan-daerah.html">Makanan Etnik Daerah</a></li>
                             </ul>
                         </li>
@@ -45,17 +45,23 @@
                             <a class="nav-link" href="./contact.html">Contact Us</a>
                         </li>
                     </ul>
-                    <form class="d-flex" role="search">
-                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
-                        <button class="btn btn-outline-success" type="submit">Search</button>
-                    </form>
                 </div>
             </div>
         </nav>
     </header>
 
     <main>
-        minum
+        <h1>Minuman</h1> 
+        <div class="kuliner">
+            
+        </div>
+
+        <div id="popup" class="popup-overlay">
+            <div class="popup-content">
+                <p></p>
+                <button class="close-btn" onclick="closepopup()">Tutup</button>
+            </div>
+        </div>
     </main>
 
     <footer class="bd-footer bg-body-tertiary">
@@ -106,5 +112,56 @@
             </form>
         </div>
     </footer>
+
+    <script>
+        showJsonToTable();
+        async function showJsonToTable() {
+            await fetch("kuliner.json")
+              .then((response) => response.json())
+              .then((data) => {
+                data.forEach((object) => {
+                     if (object.type == 'minuman') {
+                        let card = document.createElement("div");
+                        card.className = 'card card-snacks';
+                        card.innerHTML = `
+                        <img src='`+object.foto+`'  class="card-img-top gambar-snacks" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">`+object.name+`</h5>
+                          <button class='btn desc-btn' onclick="openpopup(`+object.id+`)">Deskripsi</button>
+                        `;
+                        document.getElementsByClassName("kuliner")[0].appendChild(card);
+                    }
+                })
+            })
+        }
+
+        async function openpopup(id){
+            await fetch("kuliner.json")
+            .then((response) => response.json())
+            .then((data) => {
+              data.forEach((object) => {
+                if (object.id == id) {
+                    text = object.deskripsi;
+                    document.getElementsByClassName('popup-content')[0].innerHTML=`
+                    <img src='`+object.foto+`' class=" gambar-popup" alt="...">
+                    <div class="card-body popup-body">
+                      <h5 class="popup-title">`+object.name+`</h5>
+                      <p>object.deskripsi</p>
+                      <button class="close-btn" onclick="closepopup()">Tutup</button>
+                    `;
+                }
+            })
+        })
+            document.getElementsByClassName('popup-content')[0].querySelector('p').innerHTML=text;
+            document.getElementById('popup').style.display='flex';
+
+        }
+        
+        function closepopup() {
+            document.getElementById('popup').style.display='none';
+        }
+
+
+    </script>
 </body>
 </html>

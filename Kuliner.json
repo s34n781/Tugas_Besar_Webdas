@@ -1,0 +1,205 @@
+[
+    {
+        "id" : "1",
+        "type" : "ringan",
+        "name" : "Karipap",
+        "foto" : "./img/makanan ringan/Karipap.jpg",
+        "deskripsi" : "Karipap, dikenal juga sebagai curry puff atau epok-epok, adalah kudapan populer di Malaysia, Singapura, Brunei, dan sebagian Thailand. Karipap merupakan pastri goreng atau panggang berbentuk setengah lingkaran, diisi dengan berbagai bahan seperti kentang, daging, ayam, ikan sarden, atau telur rebus, yang dibumbui dengan rempah kari. Kulitnya yang renyah dan berlapis memberikan tekstur yang khas dan menggugah selera."
+    },
+
+    {
+        "id" : "2",
+        "type" : "ringan",
+        "name" : "Kek Lapis Sarawak",
+        "foto" : "./img/makanan ringan/Kek lapis sarawak.jpg",
+        "deskripsi" : "Kek Lapis Sarawak adalah kue lapis berwarna-warni yang berasal dari Sarawak, Malaysia. Kue ini memiliki lapisan-lapisan tipis yang disusun dengan pola geometris yang rumit, menciptakan tampilan yang memukau. Proses pembuatannya melibatkan pemanggangan setiap lapisan secara terpisah, kemudian disusun dan direkatkan dengan selai atau susu kental manis. Kue ini sering disajikan pada perayaan seperti Hari Raya, Natal, dan Tahun Baru Imlek."   
+    },
+
+    {
+        "id" : "3",
+        "type" : "ringan",
+        "name" : "Kuih Kapit",
+        "foto" : "./img/makanan ringan/Kuih Kapit.jpg",
+        "deskripsi" : "Kuih Kapit, juga dikenal sebagai 'Love Letter,' adalah kue wafer tipis dan renyah yang populer selama perayaan Tahun Baru Imlek di Malaysia. Adonan yang terbuat dari telur, gula, santan, dan tepung dituangkan ke dalam cetakan besi khusus, kemudian dipanggang di atas bara api hingga kering dan renyah. Setelah matang, kue dilipat menjadi bentuk setengah lingkaran atau segitiga."   
+    },
+
+    {
+        "id" : "4",
+        "type" : "ringan",
+        "name" : "Dodol Malaysia",
+        "foto" : "./img/makanan ringan/Dodol Malaysia.jpg",
+        "deskripsi" : "Dodol adalah manisan tradisional yang memiliki tekstur kenyal dan rasa manis khas. Terbuat dari campuran tepung ketan, gula aren, dan santan, dodol dimasak dalam waktu yang lama hingga mengental dan berubah warna menjadi cokelat tua. Proses memasaknya memerlukan kesabaran dan tenaga karena adonan harus terus diaduk agar tidak gosong."   
+    },
+
+    {
+        "id" : "5",
+        "type" : "ringan",
+        "name" : "Roti Canai",
+        "foto" : "./img/makanan ringan/Roti Canai.jpg",
+        "deskripsi" : "Roti Canai adalah roti pipih yang berasal dari pengaruh India Selatan dan menjadi makanan populer di Malaysia. Dibuat dari adonan tepung terigu, air, telur, dan lemak (biasanya ghee), adonan ini diuleni, diputar, dan dilipat berulang kali sebelum digoreng di atas wajan datar. Hasilnya adalah roti yang renyah di luar dan lembut di dalam, sering disajikan dengan kuah kari atau dhal."   
+    },
+
+    {
+        "id" : "6",
+        "type" : "ringan",
+        "name" : "Roti Tisu",
+        "foto" : "./img/makanan ringan/Roti Tisu.jpg",
+        "deskripsi" : "Roti Tisu adalah variasi dari Roti Canai yang dibuat sangat tipis hingga menyerupai tisu. Adonan yang sama digunakan, tetapi diputar dan ditarik hingga sangat tipis, kemudian dipanggang hingga renyah. Biasanya disajikan dalam bentuk kerucut tinggi dan ditaburi gula atau sirup manis, menjadikannya hidangan penutup yang menarik."   
+    },
+
+    {
+        "id" : "7",
+        "type" : "ringan",
+        "name" : "Apam Balik",
+        "foto" : "./img/makanan ringan/Apam Balik.jpg",
+        "deskripsi" : "Apam Balik adalah pancake tebal yang dilipat dan diisi dengan campuran kacang tanah tumbuk, gula, dan jagung manis. Adonan pancake dituangkan ke atas wajan, kemudian setelah setengah matang, isian ditambahkan dan pancake dilipat menjadi setengah lingkaran. Hidangan ini populer sebagai jajanan pasar di Malaysia dan negara-negara Asia Tenggara lainnya."   
+    },
+
+    {
+        "id" : "8",
+        "type" : "ringan",
+        "name" : "Thosai",
+        "foto" : "./img/makanan ringan/Thosai.jpg",
+        "deskripsi" : "Thosai, atau dosa, adalah pancake tipis dan renyah yang berasal dari India Selatan dan populer di Malaysia, terutama di restoran mamak. Dibuat dari adonan fermentasi beras dan lentil, thosai dimasak di atas wajan datar hingga tipis dan garing. Biasanya disajikan dengan berbagai saus seperti chutney kelapa dan kuah kari."   
+    },
+
+    {
+        "id" : "9",
+        "type" : "ringan",
+        "name" : "Popiah",
+        "foto" : "./img/makanan ringan/Popiah.jpg",
+        "deskripsi" : "Popiah adalah lumpia segar yang terdiri dari kulit tipis yang diisi dengan berbagai bahan seperti sayuran rebus (lobak, wortel), tauge, telur, udang, dan saus manis. Berbeda dengan lumpia goreng, popiah disajikan dalam keadaan segar tanpa digoreng, menawarkan rasa yang ringan dan segar. Hidangan ini sering ditemukan di pasar malam dan acara keluarga."   
+    },
+
+    {
+        "id" : "10",
+        "type" : "berat",
+        "name" : "Nasi Lemak",
+        "foto" : "./img/makanan etnik daerah/Nasi Lemak.jpg",
+        "deskripsi" : "Nasi lemak, ikon kuliner Malaysia, adalah hidangan nasi yang dimasak dengan santan dan daun pandan, menghasilkan aroma harum dan rasa gurih yang khas. Biasanya disajikan dengan pelengkap seperti sambal pedas, ikan bilis goreng, kacang tanah, telur rebus, dan irisan timun segar. Kombinasi rasa santan, pedas, dan gurih membuat nasi lemak jadi favorit sarapan dan hidangan."   
+    },
+
+    
+    {
+        "id" : "11",
+        "type" : "berat",
+        "name" : "Laksa Penang",
+        "foto" : "./img/makanan etnik daerah/Laksa Penang.jpg",
+        "deskripsi" : "Laksa Penang, juga dikenal sebagai Asam Laksa, adalah salah satu hidangan ikonik Malaysia yang berasal dari Pulau Pinang. Laksa berupa mi beras yang disajikan dalam kuah asam kental yang terbuat dari ikan yang direbus bersama asam keping, cabai, dan rempah-rempah. Rasa kuahnya segar, asam, dan pedas dengan sentuhan manis yang seimbang."   
+    },
+
+    {
+        "id" : "12",
+        "type" : "berat",
+        "name" : "Nasi Kandar",
+        "foto" : "./img/makanan etnik daerah/Nasi Kandar.jpg",
+        "deskripsi" : "Nasi Kandar adalah hidangan khas Malaysia yang populer terutama di wilayah Penang. Hidangan ini terdiri dari nasi putih yang disajikan dengan berbagai pilihan lauk pauk seperti kari ayam, daging, ikan, telur, dan sayuran, yang biasanya dilengkapi dengan kuah kari yang kaya rempah dan beraroma kuat. Nasi Kandar dikenal karena gaya penyajiannya yang unik, di mana kuah kari dari berbagai lauk dicampur bersama di atas nasi, menciptakan rasa yang kaya, pedas, dan menggugah selera."   
+    },
+
+    {
+        "id" : "13",
+        "type" : "berat",
+        "name" : "Nasi dagang Terengganu",
+        "foto" : "./img/makanan etnik daerah/Nasi Dagang.jpg",
+        "deskripsi" : "Nasi dagang Terengganu adalah hidangan tradisional Malaysia yang terbuat dari nasi beras wangi yang dimasak dengan santan dan rempah, disajikan bersama gulai ikan tongkol yang kaya rasa. Hidangan ini biasanya dilengkapi dengan acar timun dan telur rebus, memberikan perpaduan rasa gurih, pedas, dan segar yang khas dari negeri Terengganu."   
+    },
+
+    {
+        "id" : "14",
+        "type" : "berat",
+        "name" : "Nasi Kerabu",
+        "foto" : "./img/makanan etnik daerah/Nasi Kerabu.jpg",
+        "deskripsi" : "Nasi Kerabu adalah hidangan tradisional Malaysia dengan nasi berwarna biru dari bunga telang, disajikan bersama ulam segar, sambal, keropok, dan lauk pauk seperti ayam atau ikan goreng. Rasanya segar, gurih, dan kaya tekstur."   
+    },
+
+    {
+        "id" : "15",
+        "type" : "berat",
+        "name" : "Char Kuey Teow",
+        "foto" : "./img/makanan etnik daerah/Char Kuey Teow.jpg",
+        "deskripsi" : "Char Kuey Teow adalah hidangan mie datar Malaysia yang digoreng dengan teknik khas menggunakan api besar. Campurannya terdiri dari telur, tauge, udang segar, dan kerang, yang digoreng bersama kecap manis dan bumbu rahasia, menciptakan rasa gurih dan aroma smokey yang khas. Hidangan ini populer sebagai makanan jalanan yang lezat dan memuaskan."   
+    },
+
+    {
+        "id" : "16",
+        "type" : "berat",
+        "name" : "Bak Kut Teh",
+        "foto" : "./img/makanan etnik daerah/Bak Kut Teh.jpg",
+        "deskripsi" : "Bak Kut Teh adalah sup herbal khas Malaysia yang menggunakan iga babi sebagai bahan utama. Iga direbus lama dengan campuran rempah-rempah aromatik seperti bawang putih, cengkeh, dan kayu manis, menghasilkan kuah kental dan kaya rasa. Hidangan ini sering disajikan hangat dengan nasi putih dan teh panas, sangat cocok untuk menghangatkan badan dan menyehatkan."   
+    },
+
+    {
+        "id" : "17",
+        "type" : "minuman",
+        "name" : "Teh Tarik",
+        "foto" : "./img/minuman/Teh Tarik.jpg",
+        "deskripsi" : "Teh Tarik adalah minuman teh susu yang populer di Malaysia, dikenal karena proses penyajiannya yang unik, yaitu dengan menuangkan teh bolak-balik dari satu gelas ke gelas lain untuk menghasilkan busa tebal di atasnya. Terbuat dari campuran teh hitam pekat dan susu kental manis, teh ini memiliki rasa manis dan tekstur lembut. Teh Tarik sering dinikmati bersama hidangan seperti roti canai atau nasi lemak."   
+    },
+
+    {
+        "id" : "18",
+        "type" : "minuman",
+        "name" : "Chendol Melaka",
+        "foto" : "./img/minuman/Chendol Melaka.jpg",
+        "deskripsi" : "Chendol Melaka adalah hidangan penutup es serut yang terdiri dari mi hijau pandan, santan, kacang merah, dan gula Melaka (gula kelapa merah). Hidangan ini sangat populer di Melaka dan sering disajikan dalam acara-acara tertentu."   
+    },
+
+    {
+        "id" : "19",
+        "type" : "minuman",
+        "name" : "Leng Chee Kang",
+        "foto" : "./img/minuman/Leng Chee Kang.jpg",
+        "deskripsi" : "Leng Chee Kang adalah minuman manis yang terbuat dari campuran biji teratai, buah kering, dan bahan herbal lainnya. Minuman ini biasanya disajikan dingin dan dipercaya memiliki khasiat untuk menyejukkan tubuh."   
+    },
+
+    {
+        "id" : "20",
+        "type" : "minuman",
+        "name" : "Air Mata Kucing",
+        "foto" : "./img/minuman/Air Mata Kucing.jpg",
+        "deskripsi" : "Air Mata Kucing adalah minuman dingin yang terbuat dari buah monk (luo han guo), longan kering, dan melon musim dingin. Minuman ini memiliki rasa manis alami dan sering dianggap memiliki khasiat kesehatan, seperti menyejukkan tubuh dan meredakan batuk."   
+    },
+
+    {
+        "id" : "21",
+        "type" : "minuman",
+        "name" : "Lo Han Kuo",
+        "foto" : "./img/minuman/Lo Han Kuo.jpg",
+        "deskripsi" : "Lo Han Kuo, atau buah monk, adalah buah yang digunakan dalam pembuatan minuman herbal di Malaysia. Buah ini dikenal karena rasa manis alami dan sering digunakan dalam pengobatan tradisional Tiongkok. Di Malaysia, Lo Han Kuo sering digunakan untuk membuat minuman herbal yang disajikan dingin."   
+    },
+
+    {
+        "id" : "22",
+        "type" : "minuman",
+        "name" : "Es Kepal Durian",
+        "foto" : "./img/minuman/Es Kepal Durian.jpg",
+        "deskripsi" : "Es Kepal Durian adalah hidangan penutup es serut yang diberi topping durian segar, susu kental manis, dan sirup manis. Hidangan ini sangat populer di Malaysia dan sering dijadikan camilan di cuaca panas."   
+    },
+
+    {
+        "id" : "23",
+        "type" : "minuman",
+        "name" : "Ais Milo",
+        "foto" : "./img/minuman/Ais Milo.jpg",
+        "deskripsi" : "Ais Milo adalah minuman dingin yang terbuat dari bubuk Milo yang dicampur dengan susu dan es batu. Minuman ini sangat populer di Malaysia dan sering disajikan sebagai camilan atau pendamping makanan."   
+    },
+
+    {
+        "id" : "24",
+        "type" : "minuman",
+        "name" : "Ais Tembikai",
+        "foto" : "./img/minuman/Ais Tembikai.jpg",
+        "deskripsi" : "Ais Tembikai adalah minuman dingin yang terbuat dari jus semangka segar yang dicampur dengan susu kental manis dan es batu. Minuman ini memiliki rasa manis alami dan sangat menyegarkan, cocok dinikmati di cuaca panas."   
+    },
+
+    {
+        "id" : "25",
+        "type" : "minuman",
+        "name" : "Air Barli",
+        "foto" : "./img/minuman/Air Barli.jpg",
+        "deskripsi" : "Air Barli adalah minuman tradisional yang terbuat dari biji barli yang direbus hingga empuk, kemudian disajikan dingin dengan tambahan gula, madu, atau perasan lemon. Minuman ini sangat populer di Malaysia, terutama pada cuaca panas, karena sifatnya yang menyegarkan dan khasiatnya yang bermanfaat untuk kesehatan."   
+    }
+]
+
+
+

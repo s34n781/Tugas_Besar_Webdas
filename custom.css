@@ -1,5 +1,6 @@
 main {
     background-color:bisque;
+    padding-bottom: 30px;
 }
 
 h1 {
@@ -7,24 +8,12 @@ h1 {
     padding-top: 50px;
 }
 
-.hlm-kontak {
-    padding: 20px;
-    display: grid;
-    grid-template-columns: auto auto auto;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-
-/*
-tambah animasi
-Media query biar berubah jadi 1 kolom
-*/
-
 footer {
     padding: 20px;
     padding-bottom: 100px;
     display: flex;
     justify-content: space-around;
+
 }
 
 a {
@@ -63,3 +52,98 @@ a {
     border-radius: 50%;
     margin-bottom: 30px;
 }
+
+.hlm-kontak {
+    padding: 20px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.kuliner{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.gambar-snacks{
+    object-fit: cover;
+    height: 200px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.gambar-popup{
+    object-fit: cover;
+    height: 200px;
+}
+
+.card-snacks {
+    padding-top: 0;
+    height:fit-content;
+    width:300px;
+    text-align: justify;
+
+}
+
+.popup-overlay{
+    display: none;
+    position: fixed;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    background: rgba(0,0,0,0.5);
+    z-index: 999;
+    justify-content: center;
+    align-items: center;
+}
+
+.popup-content{
+    background:white;
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    padding: 20px;
+    border-radius: 8px;
+    width: 500px;
+    text-align: justify;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+.close-btn {
+    background: #e74c3c;
+    margin: auto;
+    text-align: center;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.popup-title {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.card-body p {
+    margin: 0;
+}
+
+.desc-btn {
+    background-color: #d46ec7ea;
+    font-weight: bold;
+    color: white;
+}
+
+.popup-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+}
+/*
+tambah animasi
+Media query biar berubah jadi 1 kolom
+*/
