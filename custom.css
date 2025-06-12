@@ -4,6 +4,7 @@ main {
 }
 
 h1 {
+    color: black;
     text-align: center;
     padding-top: 50px;
 }
@@ -13,7 +14,6 @@ footer {
     padding-bottom: 100px;
     display: flex;
     justify-content: space-around;
-
 }
 
 a {
@@ -24,16 +24,28 @@ a {
 .teks-footer {
     width: 30vw;
     margin-right: 10px;
+    text-align: justify;
+    word-wrap: break-word;
 }
 
 .carousel {
     background-color: rgb(205, 205, 205);
 }
 
-.logo-gede {
+.gambar-carousel {
     margin: auto;
     object-fit: cover;
-    height: 120vh;
+    height: 80vh;
+    opacity: 70%;
+}
+
+#welcome{
+    background-color: rgba(53, 53, 53, 0.863);
+    color: white;
+    margin-bottom: 20%;
+    padding: 25px;
+    border-radius: 20px;
+    word-wrap: break-word;
 }
 
 .card {
@@ -42,6 +54,15 @@ a {
     border-radius: 20px;
     height: 300px;
     min-width: 280px;
+    animation-name: masuk;
+    animation-duration: 4s;
+    animation-iteration-count: 1;
+    opacity: 100%;
+}
+
+@keyframes masuk {
+    0%   {opacity: 0%;}
+    100% {opacity: 100%;}
 }
 
 .pp {
@@ -77,15 +98,14 @@ a {
 
 .gambar-popup{
     object-fit: cover;
-    height: 200px;
+    height: 100%;
+    max-width: 95vw;
 }
 
 .card-snacks {
     padding-top: 0;
     height:fit-content;
     width:300px;
-    text-align: justify;
-
 }
 
 .popup-overlay{
@@ -97,14 +117,19 @@ a {
     z-index: 999;
     justify-content: center;
     align-items: center;
+    
+    opacity: 0;
+    animation: fadeIn 0.5s ease-in-out forwards; /* Adjust duration and easing */
 }
 
 .popup-content{
+    max-height: 500px;
     background:white;
     display: flex;
     flex-direction: column;
     justify-content: baseline;
     padding: 20px;
+    padding-right: 15px;
     border-radius: 8px;
     width: 500px;
     text-align: justify;
@@ -112,7 +137,8 @@ a {
 }
 
 .close-btn {
-    background: #e74c3c;
+    background: #ff1900;
+    opacity: 75%;
     margin: auto;
     text-align: center;
     color: white;
@@ -121,6 +147,7 @@ a {
     margin-top: 10px;
     border-radius: 4px;
     cursor: pointer;
+    transition: 0.5s;
 }
 
 .popup-title {
@@ -136,14 +163,125 @@ a {
     background-color: #d46ec7ea;
     font-weight: bold;
     color: white;
+    animation-name: warna_warni;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes warna_warni {
+    0%   {background-color: #d46ec7ea;}
+    25%  {background-color: rgb(255, 145, 0);}
+    50%  {background-color: rgb(0, 153, 255);}
+    75%  {background-color: #9900ff;}
+    100% {background-color: #d46ec7ea;}
 }
 
 .popup-body {
     display: flex;
     flex-direction: column;
     justify-content: baseline;
+    overflow-y: auto;
 }
+
+.box-gambar{
+    display: flex;
+    justify-content: center;
+}
+
+.gambar-latar{
+    max-height: 280px;
+    max-width: 100%;
+}
+
+.kata-latar{
+    text-align: justify;
+    padding-right: 10px;
+}
+
+.kritik-saran{
+    max-width: 40%;
+    padding: 0;
+    margin: 0;
+}
+
+.btn {
+    font-size: 15px;
+}
+
 /*
 tambah animasi
 Media query biar berubah jadi 1 kolom
 */
+
+.close-btn:hover {
+    opacity: 100%;
+}
+
+@keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  .container {
+    opacity: 0;
+    animation: fadeIn 0.5s ease-in-out forwards; /* Adjust duration and easing */
+  }
+
+@media only screen and (max-width: 820px) {
+    .gambar-carousel{
+        height: 300px;
+    }
+
+    #welcome{
+        display: block;
+        height: auto;
+        font-size: 25px;
+        width: auto;
+        background-color: rgba(53, 53, 53, 0.863);
+        color: white;
+        margin-bottom: 20%;
+        padding: 25px;
+        border-radius: 20px;
+        word-wrap: break-word;
+    }
+
+    .gambar-latar{
+        height: 200px;
+        width: 350px;
+    }
+
+    .kata-latar{
+        font-size: 12px;
+    }
+
+    #kartu-latar{
+        max-width: 100%;
+        height: fit-content;
+    }
+
+    footer{
+        display: grid;
+        padding-bottom: 20px;
+        gap: 25px;
+    }
+
+    .teks-footer{
+        width: fit-content;
+        text-align: justify;
+    }
+    #div-judul{
+        justify-content: center;
+        width: 100%;
+    }
+    h5,ul{
+        text-align: center;
+    }
+
+    .kritik-saran{
+        max-width: 100%;
+    }
+  }

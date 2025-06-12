@@ -17,7 +17,7 @@
     <header>
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#">
+                <a class="navbar-brand" href="./home.html">
                     <img src="./img/logo kecil.png" width="40">
                     Cicipan Malaysia
                 </a>
@@ -94,12 +94,12 @@
 
     <footer class="bd-footer bg-body-tertiary">
         <div class="d-block-flex align-items-center mb-2 text-body-emphasis">
-            <div class="d-inline-flex align-items-center">
+            <div class="d-inline-flex align-items-center" id="div-judul">
                 <img src="./img/logo kecil.png" width="40">
                 <h5>Cicipan Malaysia</h5>
             </div>
             <p class="teks-footer">
-                Situs web kuliner yang didedikasikan untuk memperkenalkan kekayaan kuliner Malaysia kepada dunia.
+                Cicipan Malaysia adalah sebuah situs web kuliner yang didedikasikan untuk memperkenalkan kekayaan kuliner Malaysia kepada dunia. Dengan menggabungkan resep-resep tradisional dan modern, situs ini bertujuan untuk memberikan pengalaman kuliner yang autentik dan mudah diikuti oleh para pembaca dari berbagai latar belakang budaya.
             </p>
         </div>
         <div>
@@ -119,24 +119,28 @@
                 </li>
             </ul>
         </div>
-        <div>
-            <form>
-                <h5>Kritik dan Saran</h5>
-                <div class="input-group mb-3">
+        <div class="container kritik-saran">
+            <h5>Kritik dan Saran</h5>
+            <form target="_blank" action="https://formsubmit.co/2472006@maranatha.ac.id" method="POST">
+              <div class="form-group">
+                <div class="form-row">
+                  <div class="col input-group mb-3">
                     <span class="input-group-text" id="basic-addon1">Nama</span>
-                    <input type="text" class="form-control" placeholder="Nama Lengkap" aria-label="Nama Lengkap" aria-describedby="basic-addon1">
+                    <input type="text" name="name" class="form-control" placeholder="Full Name" required>
+                  </div>
                 </div>
-              
-                <div class="input-group mb-3">
-                    <input type="text" class="form-control" placeholder="Email" aria-label="Email" aria-describedby="basic-addon2">
-                    <span class="input-group-text" id="basic-addon2">@maranatha.ac.id</span>
+                <div class="form-row">
+                  <div class="col input-group mb-3">
+                    <span class="input-group-text" id="basic-addon1">Email</span>
+                    <input type="text" name="email" class="form-control" placeholder="Your Email" required>
+                  </div>
                 </div>
-              
-                <div class="input-group mb-3">
-                    <span class="input-group-text">Kritik/Saran</span>
-                    <textarea class="form-control" aria-label="With textarea"></textarea>
-                </div>
-                <button type="submit" class="btn btn-primary">Submit</button>
+              </div>
+              <div class="form-group input-group mb-3">
+                <span class="input-group-text">Kritik/Saran</span>
+                <textarea placeholder="Your Message" class="form-control" name="message" rows="3" required></textarea>
+              </div>
+              <button type="submit" class="btn btn-lg btn-dark btn-block">Submit Form</button>
             </form>
         </div>
     </footer>
